@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+
+    <title>Loja virtual</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+    <!-- Navigation-->
+    <!--produtos do carrinho-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand text-light" href="#">Loja Virtual</a>
+        <button id="menu" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false"
+            aria-label="Alterna navegação">
+            <span class="navbar-dark navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <button id="esconder" class="hide btn btn-outline-light"> <i class="bi bi-cart-dash-fill "></i></button>
+                <li class="nav-item">
+                    <a id="abrirCarrinho" class="abrirCarrinho" href="#">
+                        <button class="btn btn-outline-light" type="submit">
+                            <i class="bi-cart-fill me-1"></i>
+                            Carrinho
+                            <span id="carrinho" class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                        </button>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <nav class="bg-dark">
+        <form class="pesquisar">
+            <div id="oferta" class="oferta">
+                <h1 class="text-light">
+                    <p class="oferta-sm">Aproveite nossas ofertas</p> imperdíveis
+                </h1>
+            </div>
+            <div class="input-group mb-3">
+                <input type="text" class="pesquisa form-control" placeholder="Digite o que procura"
+                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                    <button id="buscar" class="pesquisar btn btn-outline-secondary border border-light btn-lg h-75"
+                        type="button" id="button-addon">Pesquisar</button>
+                </div>
+            </div>
+        </form>
+
+        <div class="carrinhoProdutos" id="carrinhoProdutos">
+
+        </div>
+
+
+    </nav>
+    <!--carrinho-->
+    </div>
+    </div>
+    </nav>
+    <!-- Header-->
+
+    <header id="remove" class="banner bg-dark py-5">
+        <div class="container px-4 px-lg-5 my-5">
+
+            <div class="text-center text-white ">
+                <h1 class="display-4 fw-bolder">setup</h1>
+                <p class="lead fw-normal text-white-50 mb-0">Podereso feito para você</p>
+            </div>
+        </div>
+
+
+    </header>
+    <!-- Section-->
+    <section class="py-2 bg-dark">
+        <div class="container px-4 px-lg-5 mt-5">
+            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                <div class="limpaDark bg-dark col mb-5">
+                    <div class="adicionaCarrinho card h-100">
+                        <!-- Product image-->
+                        <div class="escurecer"><img class="card-img-top" src="imagens/notebook.jpg" alt="..." />
+                        </div>
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="produtos text-center">
+                                <!-- Product name-->
+
+                                <!-- Product price-->
+
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="botao-adicionar-carrinho card-footer p-4 pt-0 border-top-0 bg-transparent">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="limpaDark col mb-5">
+                    <div class="adicionaCarrinho card h-100">
+                        <!-- Sale badge-->
+                        <div class="badge bg-dark text-black-100 position-absolute" style="top: 0.5rem; right: 0.5rem">
+                            Mais barato</div>
+                        <!-- Product image-->
+                        <div class="escurecer"><img class="card-img-top" src="imagens/mcr-rtx2060super-hmdllss3.jpg"
+                                alt="..." /></div>
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="produtos text-center">
+                                <!-- Product name-->
+
+                                <!-- Product reviews-->
+                                <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    
+                                </div>
+                                <!-- Product price-->
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="botao-adicionar-carrinho card-footer p-4 pt-0 border-top-0 bg-transparent">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="limpaDark col mb-5">
+                    <div class="adicionaCarrinho card h-100">
+                        <!-- Sale badge-->
+                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Mais
+                            barato</div>
+                        <!-- Product image-->
+                        <div class="escurecer"><img class="card-img-top" src="imagens/memoria.jpg" alt="..." /></div>
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="produtos text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder"></h5>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through"></span>
+
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="botao-adicionar-carrinho card-footer p-4 pt-0 border-top-0 bg-transparent">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="limpaDark col mb-5">
+                    <div class="adicionaCarrinho card h-100">
+                        <!-- Product image-->
+                        <div class="escurecer"><img class="card-img-top" src="imagens/ps-tpd-0850f3fagb-1.jpg"
+                                alt="..." /></div>
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="produtos text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder"></h5>
+                                <!-- Product reviews-->
+                                <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                </div>
+                                <!-- Product price-->
+
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="botao-adicionar-carrinho card-footer p-4 pt-0 border-top-0 bg-transparent">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="limpaDark col mb-5">
+                    <div class="adicionaCarrinho card h-100">
+                        <!-- Sale badge-->
+                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">
+                        </div>
+                        <!-- Product image-->
+                        <div class="escurecer"><img class="card-img-top" src="imagens/processador.jpg" alt="..." />
+                        </div>
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="produtos text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder"></h5>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through"></span>
+
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="botao-adicionar-carrinho card-footer p-4 pt-0 border-top-0 bg-transparent">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="limpaDark col mb-5">
+                    <div class="adicionaCarrinho card h-100">
+                        <!-- Product image-->
+                        <div class="escurecer"><img class="card-img-top" src="imagens/teclado-mouse.jpg" alt="..." />
+                        </div>
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="produtos text-center">
+                                <!-- Product name-->
+                                <h5 id="2" class="fw-bolder"></h5>
+                                <!-- Product price-->
+
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="botao-adicionar-carrinho card-footer p-4 pt-0 border-top-0 bg-transparent">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="limpaDark col mb-5">
+                    <div class="adicionaCarrinho card h-100">
+                        <!-- Sale badge-->
+                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Mais
+                            barato</div>
+                        <!-- Product image-->
+                        <div class="escurecer"><img class="card-img-top" src="imagens/gabinete.jpg" alt="..." /></div>
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="produtos text-center">
+                                <!-- Product name-->
+                                <h5 id="5" class="fw-bolder"></h5>
+                                <!-- Product reviews-->
+                                <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                </div>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through"></span>
+
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="botao-adicionar-carrinho card-footer p-4 pt-0 border-top-0 bg-transparent">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="limpaDark col mb-5">
+                    <div class="adicionaCarrinho card h-100">
+                        <!-- Product image-->
+                        <div class="escurecer"><img class="card-img-top" src="imagens/placa-mae.jpg" alt="..." /></div>
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="produtos text-center">
+                                <!-- Product name-->
+                                <h5 class="nome fw-bolder"></h5>
+                                <!-- Product reviews-->
+                                <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                </div>
+                                <!-- Product price-->
+
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="botao-adicionar-carrinho card-footer p-4 pt-0 border-top-0 bg-transparent">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Loja Virtual 2023</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <!--Botstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+
+    <!-- Core theme JS-->
+
+</body>
+
+</html>

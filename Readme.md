@@ -1,5 +1,5 @@
 # Loja Virtual
-    Possui apenas a pagina principal ao qual possui nome dos produtos e valores introduzidos de forma dinâmica pelo javaScript.
+    Possui apenas a pagina principal ao qual possui todo conteúdo do site.
 
 ## Projeto instruido pelo professor Gabriel Magnago
 

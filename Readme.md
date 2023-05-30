@@ -1,5 +1,5 @@
 # Loja Virtual
-    Possui apenas a pagina principal ao qual possui todo conteúdo do site.
+    Possui uma página principal ao qual possui todo conteúdo, bem como arquivos css e JavaScript para estilização e animação do site.
 
 ## Projeto instruido pelo professor Gabriel Magnago
 

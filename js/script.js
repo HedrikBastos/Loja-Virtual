@@ -56,8 +56,6 @@ const items = [
         valor: '$837,00',
         valor2: ''
     }
-
-
 ]
 
 var cont = 1;
@@ -88,7 +86,6 @@ for (let i = 0; i < links.length; i++) {
 
 }
 
-//abrir e fechar carrinho
 window.onload = function () {
     let abrirCarrinho = document.getElementById("abrirCarrinho");
 
